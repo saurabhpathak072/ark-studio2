@@ -60,6 +60,9 @@
     margin-left:15px;
     
 }
+.cta:hover{
+    background-color: white;
+}
 
 .cta #cta_text{
     display: flex;
@@ -361,7 +364,30 @@ footer{
     list-style-type: none;
     display: inline;
     padding: 20px;
+    margin-left: 30PX;
+    margin-right: 0.5PX;
 }
+
+.myli1{
+    font-weight: 700;
+    font-size: 1.3em;
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    margin-left: 10PX;
+    margin-right: 0.5PX;
+}
+
+.myli2{
+    font-weight: 700;
+    font-size: 1.3em;
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    margin-left: 8PX;
+    margin-right: 0.5PX;
+}
+
 
 #slv2   {
     padding: 60px;
