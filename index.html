@@ -34,30 +34,26 @@
     </section>
     </div>
     <!--Not done-->
-    <div class="services wrapper">
-        <section id="services_wrapper">
-            <h3>We are ARK Studio, we make awesome stuff.</h3>
-            <ul>
-                <li>
-                    <img src="./file (10)/img/s1.png" alt="s1.png">
-                    <h3>Slamco laboris velitesse</h3>
-                    <p>
-                        sed do eiusmod tempor incididunt uto labour dolore magna aliqua enim minim veniam.
-                    </p>
-                </li>
-                <li><img src="./file (10)/img/s2.png" alt="s2.png">
-                    <h3>Slamco laboris velitesse</h3>
-                    <p>
-                        sed do eiusmod tempor incididunt uto labour dolore magna aliqua enim minim veniam.
-                    </p></li>
-                <li>
-                    <img src="./file (10)/img/s3.png" alt="s3.png">
-                    <h3>Slamco laboris velitesse</h3>
-                    <p>
-                        sed do eiusmod tempor incididunt uto labour dolore magna aliqua enim minim veniam.
-                    </p>
-                </li>
-            </ul>
+    <section class="services wrapper">
+        <div class="us3">
+            <div id="us3_1"><strong>We are ARK Studio, we make awesome stuff.</strong></div>
+            <img src="./file (10)/img/separator.png" alt="Seperator Image" id="seperator">
+            <div id="list">
+                <img src="./file (10)/img/s1.png" alt="Pot" id="image1"> 
+                <img src="./file (10)/img/s2.png" alt="pen" id="image2"> 
+                <img src="./file (10)/img/s3.png" alt="pc" id="image3"> 
+                <ul>
+                    <li id="slv1" class="myli">Slamco laboris velitesse</li>
+                    <li id="slv2" class="myli">Slamco laboris velitesse</li>
+                    <li id="slv3" class="myli">Slamco laboris velitesse</li>
+                </ul>
+                <div class="mypara" id="para1">sed do eiusmod tempor incididunt uto labore dolore magna alique enim minim veniam.</div>
+                <div class="mypara" id="para2">sed do eiusmod tempor incididunt uto labore dolore magna alique enim minim veniam.</div>
+                <div class="mypara" id="para3">sed do eiusmod tempor incididunt uto labore dolore magna alique enim minim veniam.</div>
+            </div>
+        </div>
+    </section>
+
         </section>
     </div>
     <div class="recent_work">
@@ -79,12 +75,12 @@
                     <p>Duis aute irure dolor in reprehenders it in voluptate velit esse cillum dolore in eu fugiate nula pariature sint occaecat cupidatat.</p>
                 </li>
                 <li>
-                    <p><img src="./file (10)/img/client2.jpg" alt="client1"></p>
+                    <img src="./file (10)/img/client2.jpg" alt="client1">
                     <p><strong>John Doe</strong>/Manager</p>
                     <p>Duis aute irure dolor in reprehenders it in voluptate velit esse cillum dolore in eu fugiate nula pariature sint occaecat cupidatat.</p>
                 </li>
                 <li>
-                    <p><img src="./file (10)/img/client3.jpg" alt="client1"></p>
+                    <img src="./file (10)/img/client3.jpg" alt="client1">
                     <p><strong>John Doe</strong>/Manager</p>
                     <p>Duis aute irure dolor in reprehenders it in voluptate velit esse cillum dolore in eu fugiate nula pariature sint occaecat cupidatat.</p>
                 </li>
@@ -92,15 +88,53 @@
             </ul>
         </section>
     </div>
+
+    <div class="brands">
+
+        <div class="brand_div1">
+            <img id="bd1" src="./file (10)/img/client_logo.png" alt="Client Logo">
+        </div>
+        <div class="brand_div2">
+            <img id="bd2" src="./file (10)/img/client_logo.png" alt="Client Logo">
+        </div>
+        <div class="brand_div3">
+            <img id="bd3" src="./file (10)/img/client_logo.png" alt="Client Logo">
+        </div>
+        <div class="brand_div4">
+            <img id="bd4" src="./file (10)/img/client_logo.png" alt="Client Logo">
+        </div>
+        <div class="brand_div5">
+            <img id="bd5" src="./file (10)/img/client_logo.png" alt="Client Logo">
+        </div>
+        <div class="brand_div6">
+            <img id="bd6" src="./file (10)/img/client_logo.png" alt="Client Logo">
+        </div>
+    </div>
+
     <footer>
-        <footer_widget>
-                <div>
+        <div class="footer_widget">
+            <div class="cta" style="margin-top: 40px;">
+                <section id="cta">
+                    
+                    <div class="job" >
+                    <p id="cta_text">Have a project in mind? We would love to hear from you!
+                    <a id="cta_link" href="#">GET IN TOUCH WITH US</a></p>
+                </div>
+                </section>
+                </div>
+
+            <div class="widget">
+                
+                
+                <div class="sub_widget1">
                     <h3>Location</h3>
-                    <address>3301 New Mexico Avenue Washington,DC 20016</address>
+                    <p>3301 New Mexico Avenue Washington,DC 20016</p>
                     <p>(202)537-0787</p>
                     <p><img src="./file (10)/img/social.png" alt="social"></p>
                 </div>
-                <div>
+                
+                
+                <div class="sub_widget2">
                     <h3>Company</h3>
                     <ul id="comp_list">
                         <li><a href="#" id="comp_item_1">Our Story</a></li>
@@ -109,7 +143,8 @@
                         <li><a href="#" id="comp_item_4">Careers</a></li>
                     </ul>
                 </div>
-                <div>
+                
+                <div class="sub_widget3">
                     <h3>Supports</h3>
                     <ul id="sup_list">
                         <li><a href="#" id="sup_item_1">FAQ</a></li>
@@ -117,13 +152,16 @@
                         <li><a href="#" id="sup_item_3">Policies</a></li>
                     </ul>
                 </div>
-                <div>
+                
+                <div class="sub_widget4">
                     <h3>ARK Studio</h3>
                     <p>Excepture sint occaecat cupidatat non proident,Sunt in culpa qui officia est eserunt mollit anim laborum.</p>
                 </div>
+                
 
-        </footer_widget>
+            </div>
         <p class="rights">&copy; 2014 ARK Studio - All Rights Reserved</p>
+    </div>
     </footer>
     
 </body>
