@@ -67,13 +67,15 @@
 .cta #cta_text{
     display: flex;
     color: black;
-    position: relative;
+    position: absolute;
     margin-left: 15px;
-   bottom: 59px;
+   bottom: 137px;
+   
    height: 30px;
    padding: 20px 5px 5px 75px;
     font-size: 18px;
     background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
 }
 
 .cta #cta_link{
@@ -408,6 +410,44 @@ footer{
 
 #para3  {
     margin-left: 630px;
+}
+
+
+.cta1 #cta_text1:hover{
+    background-color: white;
+    opacity: 0.8;
+}
+
+.cta1 #cta_text1{
+    display: flex;
+    color: black;
+    position: absolute;
+    margin-left: 15px;
+   
+   
+   height: 30px;
+   padding: 20px 5px 5px 75px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+}
+
+.cta1 #cta_link1{
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: 150px;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    background-color: skyblue;
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;   
+}
+
+.cta1 #cta_link1:hover{
+    opacity: 1;
 }
 
 
