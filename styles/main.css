@@ -53,47 +53,63 @@
     height: 50px;
     width: 80px;
 }
-
-.cta img{
-    height: 500px;
-    width: 1320px;
-    margin-left:15px;
-    
-}
-.cta:hover{
-    background-color: white;
-}
-
-.cta #cta_text{
-    display: inline-flex;
-    color: black;
-    position: absolute;
-    margin-left: 15px;
-   bottom: 137px;
-   
-   height: 30px;
-   padding: 20px 5px 5px 75px;
-    font-size: 18px;
-    background-color: rgba(255, 255, 255, 0.7);
-    width: 100%;
-}
-
-.cta #cta_link{
-    display: flex;
+.whole  {
     position: relative;
-    margin-top: -10px;
-    margin-left: auto;
-    margin-right: 150px;
-    padding: 10px 10px 10px 10px;
-    font-size: 18px;
-    background-color: skyblue;
-    color: white;
-    text-decoration: none;
-    opacity: 0.7;   
+    background-image: url(../billboard.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    top: 0;
+    height: 630px; 
+    width: 100%;
+   
 }
 
-.cta #cta_link:hover{
-    opacity: 1;
+
+.cta   {
+    background-color: rgba(241, 234, 234, 0.7);
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 570px;
+    height: 60px;
+}
+
+#cta1   {
+    position: absolute;
+    display: block;
+    height: 60px;
+    width: 80%;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 1.3em;
+}
+
+#cta2   {
+    display: block;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    width: 220px;
+    height: 25px;
+    margin-top: 15px;
+    margin-right: 50px;
+    background-color: rgba(64, 187, 206,0.7);
+    text-align: center;
+    padding-top: 10px;
+}
+#cta2:hover{
+    background-color: rgba(64, 187, 206,1);
+}
+#cta_text{
+    display: block;
+    position: absolute;
+}
+#cta_link  {
+    
+    
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
 }
 
 .recent_work{
