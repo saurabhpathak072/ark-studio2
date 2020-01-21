@@ -235,7 +235,7 @@ footer{
     
     position: relative;
     background-color: rgb(34, 31, 31);
-    height: auto;
+    height: 500px;
 }
 
 .widget{
@@ -246,6 +246,7 @@ footer{
    align-items: center;
    align-content: space-between;
    margin-left: 45px;
+
    
 }
 
@@ -305,11 +306,20 @@ footer{
 }
 
 .rights{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: block;
+    align-content: flex-end;
+    align-self: flex-end;
     margin-top: 125px;
-    padding-bottom: 45px;
+    padding-bottom: 45px; */
+    display: inline-block;
+    color: white;
+    position: absolute;
+    bottom: 75px;    
+    left: 547px;
+    right: 470px;
+    margin-top: 450px;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
 }
 
 .us3    {
