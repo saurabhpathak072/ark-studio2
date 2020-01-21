@@ -114,7 +114,7 @@
     width: 300px;
 }
 
-.testimonials_wrapper{
+.testimonials {
     display: flex;
    justify-content: center;
    flex-flow: wrap;
@@ -123,14 +123,14 @@
     padding: 10px 20px 20px 20px;
  }
 
-.testimonials_wrapper h3{
+.testimonials h3{
     font-size: 25px;
     text-align: center;
     margin-bottom: 105px;
     
 }
 
-.testimonials_wrapper ul{
+.testimonials ul{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -141,7 +141,7 @@
     
 }
 
-.testimonials_wrapper li{
+.testimonials li{
     text-decoration: none;
     width: 250px;
     margin:10px 50px 20px 20px;
@@ -149,7 +149,7 @@
     
  }
 
- .testimonials_wrapper p{
+ .testimonials p{
 
     display: block;
     margin-top: 20px;
@@ -158,7 +158,7 @@
    
  }
 
- .testimonials_wrapper img{
+ .testimonials img{
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
